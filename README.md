@@ -4,6 +4,7 @@ This project demonstrates how to setup a AWS stack with `aws-cdk`.
 Inspect the code at `infra` to see how the various components are defined.
 Notice we are also able to pass environement variable to the lambda function so that it can initial the step function tasks.
 
+```
 ├── infra
 │   ├── bin/index.ts <- This is where you stacks are initialized
 │   ├── services   <- Service definitions
@@ -12,6 +13,7 @@ Notice we are also able to pass environement variable to the lambda function so 
 ├── src        <- Application code
 ├── cdk.json   <- Entry point for aws-cdk cli
 └── README.md
+```
 
 ## Requirements
 
