@@ -6,12 +6,13 @@ Notice we are also able to pass environement variable to the lambda function so 
 
 ```
 ├── infra
-│   ├── bin/index.ts <- This is where your stacks are initialized
-│   ├── services   <- Service definitions
-│   ├── stacks     <- Stack definitions
+│   ├── bin/index.ts   <- Entry point to your stack definitions
+│   ├── services       <- Service definitions
+│   ├── stacks         <- Stack definitions
 │   └── utils
-├── src        <- Application code
-├── cdk.json   <- Entry point for aws-cdk cli
+├── src                <- Application code
+├── cdk.json           <- Entry point for aws-cdk cli
+├── package.json 
 └── README.md
 ```
 
