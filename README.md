@@ -6,7 +6,7 @@ Notice we are also able to pass environement variable to the lambda function so 
 
 ```
 ├── infra
-│   ├── bin/index.ts <- This is where you stacks are initialized
+│   ├── bin/index.ts <- This is where your stacks are initialized
 │   ├── services   <- Service definitions
 │   ├── stacks     <- Stack definitions
 │   └── utils
