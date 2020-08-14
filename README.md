@@ -43,4 +43,5 @@ Once deployed you should now have:
 ## Testing out the deployed services
 
 
-On AWS you can invoke the state machine manually or you can invoke a lambda function via API Gateway `POST /jobs` which in turn will invoke the state machine.
+* You can invoke the state machine manually via AWS console to see the step functions in action.
+* Or you can invoke a lambda function that triggers the step function tasks via **API Gateway** `POST /jobs`.
