@@ -2,7 +2,7 @@
 
 This project demonstrates how to setup a AWS stack with `aws-cdk`.
 Inspect the code at `infra` to see how the various components are defined.
-Notice we are also able to pass environement variable to the lambda function.
+Notice we are also able to pass environement variables to the lambda function.
 
 ```
 ├── infra
